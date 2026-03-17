@@ -1,0 +1,27 @@
+# Raw and processed data — never commit
+data/
+*.h5
+*.csv
+*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (large files)
+models/*.pt
+models/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (optional — commit if you want teammate to see plots)
+results/
