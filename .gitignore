@@ -25,3 +25,10 @@ Thumbs.db
 
 # Results (optional — commit if you want teammate to see plots)
 results/
+
+# ignore all data files but keep folder structure
+data/raw/**/*
+data/processed/**/*
+!data/raw/**/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
